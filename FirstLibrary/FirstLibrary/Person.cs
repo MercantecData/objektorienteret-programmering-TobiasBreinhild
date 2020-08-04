@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using Job;
 
-namespace FirstLibrary
+namespace Person
 {
     public class Person
     {
@@ -9,7 +10,7 @@ namespace FirstLibrary
         public int age;
         public Job.Job job;
 
-        public Person(string name, int age, Job.Job job) // Consructor
+        public Person(string name, int age, Job.Job job) // Constructor
         {
             this.name = name;
             this.age = age;
