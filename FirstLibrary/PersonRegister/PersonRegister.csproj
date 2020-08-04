@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FirstLibrary\FirstLibrary.csproj" />
+    <ProjectReference Include="..\Job\Job.csproj" />
   </ItemGroup>
 
 </Project>

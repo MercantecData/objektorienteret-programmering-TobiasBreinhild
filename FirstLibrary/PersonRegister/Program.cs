@@ -1,5 +1,6 @@
 ﻿using System;
 using FirstLibrary;
+using Job;
 
 namespace PersonRegister
 {
@@ -7,7 +8,7 @@ namespace PersonRegister
     {
         static void Main()
         {
-            Job job1 = new Job("Programmer", 420.69);
+            Job.Job job1 = new Job.Job("Programmer", 420.69);
 
             Person person1 = new Person("Uvuvwevwevwe Onyetenyevwe Ugwemuhwem Osas", 69, job1);
 
