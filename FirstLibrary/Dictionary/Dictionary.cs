@@ -7,7 +7,7 @@ namespace Dictionary
     {
         static void Main(string[] args)
         {
-            var stringDiction = new Dictionary<string, int>();
+            var stringDiction = new Dictionary<string, int>(); //Dictionary
 
             stringDiction["Hej1"] = 1;
             stringDiction["Hej2"] = 2;

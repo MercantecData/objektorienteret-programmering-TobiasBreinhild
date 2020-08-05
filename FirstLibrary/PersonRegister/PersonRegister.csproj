@@ -6,8 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Dictionary\Dictionary.csproj" />
     <ProjectReference Include="..\FirstLibrary\Person.csproj" />
     <ProjectReference Include="..\Job\Job.csproj" />
+    <ProjectReference Include="..\MathLibrary\MathLibrary.csproj" />
   </ItemGroup>
 
 </Project>
