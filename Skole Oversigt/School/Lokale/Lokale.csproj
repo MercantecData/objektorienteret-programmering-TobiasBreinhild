@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Ansat\Ansat.csproj" />
+    <ProjectReference Include="..\Hold\Hold.csproj" />
+    <ProjectReference Include="..\KursusLibrary\KursusLibrary.csproj" />
+  </ItemGroup>
+
 </Project>

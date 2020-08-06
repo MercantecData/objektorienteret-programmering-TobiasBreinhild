@@ -1,14 +1,16 @@
 ﻿using System;
-using AnsatLibrary;
-using LokaleLibrary;
-using HoldLibrary;
 
 namespace KursusLibrary
 {
     public class Kursus
     {
-        Ansat kursusAnsat = new Ansat();
-        Lokale kursusLokale = new Lokale();
-        Hold kursusHold = new Hold();
+        int ugeNr;
+        string kursusEmne;
+
+        public Kursus(int ugeNr, string kursusEmne)
+        {
+            this.ugeNr = ugeNr;
+            this.kursusEmne = kursusEmne;
+        }
     }
 }

@@ -25,12 +25,11 @@ namespace School
             hold.elevHold3.Add(new Elev("Bo"));
             hold.elevHold3.Add(new Elev("Yvonne-Mads"));
 
-
-            hold.elevHold1.ForEach(elev => Console.WriteLine(hold.elevHold1));
+            hold.elevHold1.ForEach(elev => Console.WriteLine(hold.elevHold1)); // Printer "System.Collections.Generic.List`1[ElevLibrary.Elev]"
 
             for (int i = 0; i < hold.elevHold1.Count; i++)
             {
-                Console.WriteLine(hold.elevHold1[i]);
+                Console.WriteLine(hold.elevHold1[i]); // Printer "ElevLibrary.Elev"
             }
         }
     }

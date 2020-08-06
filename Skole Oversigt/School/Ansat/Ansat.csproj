@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Hold\Hold.csproj" />
+    <ProjectReference Include="..\KursusLibrary\KursusLibrary.csproj" />
   </ItemGroup>
 
 </Project>
