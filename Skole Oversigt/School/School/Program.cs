@@ -1,35 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
-using LokaleLibrary;
-using HoldLibrary;
-using AnsatLibrary;
-using ElevLibrary;
+using School;
 
 namespace School
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Hold hold = new Hold();
+            Hold hold1 = new Hold(new List<Elev>(), 69);
 
-            hold.elevHold1.Add(new Elev("Benny-Børge"));
-            hold.elevHold1.Add(new Elev("Bent-Åge"));
-            hold.elevHold1.Add(new Elev("Knud-Egner"));
+            hold1.elevHold.Add(new Elev("Benny-Børge", 15));
+            hold1.elevHold.Add(new Elev("Bent-Åge", 16));
+            hold1.elevHold.Add(new Elev("Knud-Egner", 19));
 
-            hold.elevHold2.Add(new Elev("Egon-Karsten"));
-            hold.elevHold2.Add(new Elev("Mona-Lis"));
-            hold.elevHold2.Add(new Elev("Karl-Lief"));
-
-            hold.elevHold3.Add(new Elev("Margrethe-Povl"));
-            hold.elevHold3.Add(new Elev("Bo"));
-            hold.elevHold3.Add(new Elev("Yvonne-Mads"));
-
-            hold.elevHold1.ForEach(elev => Console.WriteLine(hold.elevHold1)); // Printer "System.Collections.Generic.List`1[ElevLibrary.Elev]"
-
-            for (int i = 0; i < hold.elevHold1.Count; i++)
+            for (int i = 0; i < hold1.elevHold.Count; i++)
             {
-                Console.WriteLine(hold.elevHold1[i]); // Printer "ElevLibrary.Elev"
+                Console.WriteLine(hold1.elevHold[i].name + ", " + hold1.elevHold[i].age);
             }
         }
     }
