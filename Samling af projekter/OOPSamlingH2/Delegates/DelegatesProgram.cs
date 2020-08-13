@@ -2,7 +2,7 @@
 
 namespace Delegates
 {
-    class Program
+    class DelegatesProgram
     {
         public delegate void DelegateStuff();
 

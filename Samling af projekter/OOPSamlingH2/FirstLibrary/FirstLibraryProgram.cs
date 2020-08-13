@@ -4,13 +4,13 @@ using Person;
 using Job;
 using MathLibrary;
 
-namespace PersonRegister
+namespace FirstLibrary
 {
-    class Program
+    class FirstLibraryProgram
     {
         static void Main(string[] args)
         {
-            MathLibrary.Maths mathStuff = new MathLibrary.Maths();
+            Maths mathStuff = new Maths();
 
             Job.Job job1 = new Job.Job("Programmer", 420.69);
 
@@ -28,7 +28,6 @@ namespace PersonRegister
             Console.WriteLine(mathStuff.Plus("4", "6"));
             Console.WriteLine(mathStuff.Minus("15", "5"));
             Console.WriteLine(mathStuff.Multiply("2", "5"));
-            Console.WriteLine(mathStuff.Divide("50", "5"));   
+            Console.WriteLine(mathStuff.Divide("50", "5"));
         }
     }
-}

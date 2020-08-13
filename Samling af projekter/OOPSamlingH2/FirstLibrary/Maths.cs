@@ -35,7 +35,7 @@ namespace MathLibrary
             string minusSolution = result.ToString();
             return minusSolution;
         }
-        
+
         // Multiply Functions
         public int Multiply(int a, int b)
         {
@@ -67,6 +67,6 @@ namespace MathLibrary
             string divideSolution = result.ToString();
             return divideSolution;
         }
-        
+
     }
 }
